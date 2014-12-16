@@ -1,0 +1,28 @@
+V "GNAT Lib v2014"
+A -gnatA
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLICIT_LOOPS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U memory%b		memory.adb		5fe2b3a5 OO PK
+
+U memory%s		memory.ads		b7f07134 EE NE OO PK
+
+D memory.ads		20140813225806 b7f07134 memory%s
+D memory.adb		20140813225814 e812c291 memory%b
+D system.ads		20140406181358 5fc8ae56 system%s
+X 1 memory.ads
+1K9*Memory 9l5 9e11 2|1b14 22l5 22t11
+3V13*fetch{integer} 3>20 2|8b13 11l8 11t13
+3e20 ch{character} 4r18 4r32 2|8b20 10r19
+6U14*store 6>21 6>39 2|17b14 20l8 20t13
+6e21 ch{character} 7r18 7r32 2|17b21 19r11
+6i39 value{integer} 2|17b39 19r18
+X 2 memory.adb
+3a4 mem(integer) 10r14 19m7
+

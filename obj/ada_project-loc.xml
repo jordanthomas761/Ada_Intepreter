@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker current="true" column=" 46" line=" 141" >
+      <vfs_file>Z:\Documents\Classes\2014 Fall\CS4150\Ada_project\src\parsers.adb</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >Z:\Documents\Classes\2014 Fall\CS4150\Ada_project\memory.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >Z:\Documents\Classes\2014 Fall\CS4150\Ada_project\parsers.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >Z:\Documents\Classes\2014 Fall\CS4150\Ada_project\src\parsers.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >Z:\Documents\Classes\2014 Fall\CS4150\Ada_project\src\statements.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >Z:\Documents\Classes\2014 Fall\CS4150\Ada_project\src\tokens.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >Z:\Documents\Classes\2014 Fall\CS4150\Ada_project\src\tokens.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >Z:\Documents\Classes\2014 Fall\CS4150\Ada_project\src\lexical_analyzers.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >Z:\Documents\Classes\2014 Fall\CS4150\Ada_project\src\boolean_expressions.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1">
+      <vfs_file >Z:\Documents\Classes\2014 Fall\CS4150\Ada_project\src\statements.ads</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >Z:\Documents\Classes\2014 Fall\CS4150\Ada_project\memory.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >Z:\Documents\Classes\2014 Fall\CS4150\Ada_project\parsers.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >Z:\Documents\Classes\2014 Fall\CS4150\Ada_project\src\parsers.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1">
+      <vfs_file >Z:\Documents\Classes\2014 Fall\CS4150\Ada_project\src\interpreter.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

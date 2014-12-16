@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>Z:\Documents\Classes\2014 Fall\CS4150\Ada_project\memory.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_file>Z:\Documents\Classes\2014 Fall\CS4150\Ada_project\parsers.ads</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >/Users/BIWMac/Documents/Classes/2014 Fall/CS4150/Ada_project/ada_project.gpr</vfs_file>
+    <file_marker current="true" column=" 1" line=" 1">
+      <vfs_file >/Users/BIWMac/Documents/Classes/2014 Fall/CS4150/Ada_project/parsers.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

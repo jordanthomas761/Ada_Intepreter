@@ -1,0 +1,76 @@
+V "GNAT Lib v2014"
+A -gnatA
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U expressions%b		expressions.adb		9822364a NE OO PK
+W interfaces%s		interfac.ads		interfac.ali
+W memory%s		memory.adb		memory.ali
+
+U expressions%s		expressions.ads		c095c3b0 EE NE OO PK
+
+D expressions.ads	20140813225806 c095c3b0 expressions%s
+D expressions.adb	20140813225814 ef4784ce expressions%b
+D interfac.ads		20140406181358 69adb1b9 interfaces%s
+D memory.ads		20140813225806 b7f07134 memory%s
+D system.ads		20140406181358 5fc8ae56 system%s
+X 1 expressions.ads
+1K9*Expressions 32E9 50l5 50e16 2|4b14 101l5 101t16
+3E9*Arithmetic_Operator 3e64 19r46 40r20 2|52r46
+3n33*ADD_OP{3E9} 2|76r21
+3n41*SUB_OP{3E9} 2|78r21
+3n49*MUL_OP{3E9} 2|80r21
+3n57*DIV_OP{3E9} 2|82r21
+5E9*Expression_Type 5e63 7r32 32r32
+5n29*BINARY_EXPR{5E9} 39r18 2|58r31 74r15
+5n42*CONST_EXPR{5E9} 35r18 2|29r31 85r15
+5n54*VAR_EXPR{5E9} 37r18 2|43r31 87r15
+7R9*Expression 7d21 9r37 32c9 44e17 2|29r19 43r19 58r19
+7e21 expr_type{5E9} 32r21 34r15 2|73r17
+9P9*Expression_Access(7R9) 15r67 17r66 20r56 21r46 24r32 41r23 42r23 2|26r67
+. 27r13 38r66 40r13 53r56 54r46 55r13 69r32
+11R9*Id 13r49 27r31 29r29 38r21 46c9 48e14 2|6r49 8r12 16r31 95r29
+13V13*create_id{11R9} 13>24 2|6b13 12l8 12t17 44s19
+13e24 ch{character} 2|6b24 10r17
+15V13*create_constant_expression{9P9} 15>41 2|26b13 32l8 32t34
+15i41 value{integer} 2|26b41 30r21
+17V13*create_variable_expression{9P9} 17>41 2|38b13 46l8 46t34
+17e41 ch{character} 2|38b41 44r30
+19V13*create_binary_expression{9P9} 19>39 20>39 20>46 2|52b13 63l8 63t32
+19e39 op{3E9} 2|52b39 59r18
+20p39 expr1{9P9} 22r18 2|53b39 60r21
+20p46 expr2{9P9} 22r36 2|53b46 61r21
+24V13*evaluate{integer} 24>23 2|69b13 77s29 77s52 79s29 79s52 81s29 81s52
+. 83s29 83s52 91l8 91t16
+24p23 expr{9P9} 25r18 2|69b23 73r12 75r18 77r38 77r62 79r38 79r62 81r38 81r62
+. 83r38 83r62 86r23 88r33
+27V13*evaluate{integer} 27>23 2|16b13 20l8 20t16 88s23
+27r23 var{11R9} 2|16b23 19r21
+29V13*get_ch{character} 29>21 2|95b13 99l8 99t14
+29r21 var{11R9} 2|95b21 98r14
+36i16*value{integer} 2|30m12 86r28
+38r16*var{11R9} 2|44m12 88r38
+40e16*op{3E9} 2|59m12 75r23
+41p16*expr1{9P9} 2|60m12 77r43 79r43 81r43 83r43
+42p16*expr2{9P9} 2|61m12 77r67 79r67 81r67 83r67
+47e7*ch{character} 2|10m11 19r25 98r18
+X 2 expressions.adb
+8r7 var{1|11R9} 10m7 11r14
+27p7 expr{1|9P9} 29m7 30r7 31r14
+40p7 expr{1|9P9} 43m7 44r7 45r14
+55p7 expr{1|9P9} 58m7 59r7 60r7 61r7 62r14
+70i7 result{integer} 77m19 79m19 81m19 83m19 86m13 88m13 90r14
+X 4 memory.ads
+1K9*Memory 2|1w6 2r5 4|9e11
+3V13*fetch{integer} 2|19s14
+

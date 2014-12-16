@@ -1,0 +1,78 @@
+V "GNAT Lib v2014"
+A -gnatA
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U tokens%b		tokens.adb		8889fb01 NE OO PK
+
+U tokens%s		tokens.ads		3cf34381 EE NE OO PK
+
+D system.ads		20140406181358 5fc8ae56 system%s
+D tokens.ads		20140813225806 3cf34381 tokens%s
+D tokens.adb		20140814150234 b47ab880 tokens%b
+X 2 tokens.ads
+1K9*Tokens 31E9 38l5 38e11 3|1b14 89l5 89t11
+3E9*Token_Type 7e73 15r40 18r51 32r17 3|7r40 25r51
+3n24*FEATURE_TOK{3E9}
+3n37*END_TOK{3E9}
+3n46*IF_TOK{3E9}
+3n54*PRINT_TOK{3E9}
+3n65*LOOP_TOK{3E9}
+4n24*UNTIL_TOK{3E9}
+4n35*FROM_TOK{3E9}
+4n45*IS_TOK{3E9}
+4n53*ID_TOK{3E9}
+4n61*DO_TOK{3E9}
+4n69*ELSE_TOK{3E9}
+5n24*THEN_TOK{3E9}
+5n34*ASSIGN_TOK{3E9}
+5n46*LIT_INT_TOK{3E9}
+5n59*ADD_TOK{3E9}
+5n68*SUB_TOK{3E9}
+6n24*MUL_TOK{3E9}
+6n33*DIV_TOK{3E9}
+6n42*EQ_TOK{3E9}
+6n50*NE_TOK{3E9}
+6n58*LT_TOK{3E9}
+6n66*LE_TOK{3E9}
+6n74*GT_TOK{3E9}
+7n24*GE_TOK{3E9}
+7n32*EOS_TOK{3E9}
+7n41*LEFT_PAREN_TOK{3E9}
+7n57*RIGHT_PAREN_TOK{3E9}
+9R9*Token 16r52 18r37 20r33 22r37 24r40 31c9 36e14 3|9r34 11r12 25r37 34r33
+. 43r37 52r40
+11i4*LEXEME_SIZE{positive} 13r36 3|61r22 77r22 82r24
+13A9*Lexeme<string>(character)<integer> 15r60 20r47 26r36 28r45 33r12 3|7r60
+. 34r47 59r36 72r45 74r12
+15V13*create_token{9R9} 15>27 15>52 15>68 16>27 3|7b13 19l8 19t20
+15e27 tok_type{3E9} 3|7b27 14r23
+15a52 lex{13A9} 3|7b52 15r18
+15i68 row{positive} 3|8b27 16r25
+16i27 col{positive} 3|8b45 17r28
+18V13*get_token_type{3E9} 18>29 3|25b13 28l8 28t22
+18r29 tok{9R9} 3|25b29 27r14
+20V13*get_lexeme{13A9} 20>25 3|34b13 37l8 37t18
+20r25 tok{9R9} 3|34b25 36r14
+22V13*get_row_number{positive} 22>29 3|43b13 46l8 46t22
+22r29 tok{9R9} 3|43b29 45r14
+24V13*get_column_number{positive} 24>32 3|52b13 55l8 55t25
+24r32 tok{9R9} 3|52b32 54r14
+26V13*lexeme_length{positive} 26>28 3|59b13 68l8 68t21
+26a28 lex{13A9} 3|59b28 64r13
+28V13*to_lexeme{13A9} 28>24 3|72b13 87l8 87t17
+28a24 s{string} 3|72b24 77r10 78r24 79r23 79r29 83r24 83r30
+32e7*tok_type{3E9} 3|14m11 27r18
+33a7*lex{13A9} 3|15m11 36r18
+34i7*row_number{positive} 3|16m11 45r18
+35i7*column_number{positive} 3|17m11 54r18
+X 3 tokens.adb
+11r7 tok{2|9R9} 14m7 15m7 16m7 17m7 18r14
+61i7 i{positive} 64r17 65m10 65r15 67r14
+74a7 lex{2|13A9} 79m13 83m13 86r14
+78i14 i{integer} 79r17 79r25
+82i14 i{integer} 83r18 83r26
+
